@@ -1,0 +1,7 @@
+# Não versionar segredos ou dependências locais
+.env
+.env.*
+!.env.example
+node_modules/
+npm-debug.log*
+.DS_Store
